@@ -1,1 +1,32 @@
 /* your css code goes here */
+
+.dropdown {
+    width: 60%;
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.calendar {
+    margin-top: 5rem;
+}
+
+.day {
+    width: 14%;
+    height: 50px;
+    border: 1px solid #CCC;
+    float: left;
+    position: relative;
+}
+
+.day.previous-or-next-month {
+    background-color: #e4e4e4;
+}
+
+.day.header {
+    max-height: 30px;
+    font-weight: bold;
+}
