@@ -58,8 +58,8 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat='day in range.days'>
-                    <td class='day {{day.monthClass}}'>
+                <tr>
+                    <td class='day {{day.monthClass}}' ng-repeat='day in range.days'>
                         <span>{{day.day}}</span>
                     </td>
                 </tr>
