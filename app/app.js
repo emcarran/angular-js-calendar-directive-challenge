@@ -4,10 +4,9 @@ angular.module('calendarDemoApp', [])
     return {
         restrict: 'E',
         templateUrl: 'myCalendar.html',
-        scope: true,
-        controller: function ($scope, $element, $attrs) {
+        controller: function controller($scope, $element, $attrs) {
 
-            //set intial state
+            // set intial state
             var date = new Date();
             var currentMonth = date.getMonth();
             var currentYear = date.getFullYear();
